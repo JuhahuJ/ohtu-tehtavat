@@ -1,14 +1,14 @@
 class Player:
     def __init__(self, name, assists, goals, penalties, team, games):
-        self.name = str(name)
-        self.assists = " assists "+str(assists)
-        self.goals = " goals "+str(goals)
-        self.penalties = " penalties "+str(penalties)
-        self.team = " team" +str(team)
-        self.games = " games "+str(games)
+        self.name = name
+        self.assists = assists
+        self.goals = goals
+        self.penalties = penalties
+        self.team = team
+        self.games = games
     
     def __str__(self):
-        lista = [self.name,self.assists,self.goals,self.penalties,self.team,self.games]
+        lista = [self.name," assists "+str(self.assists)," goals "+str(self.goals)," penalties "+str(self.penalties)," team " +str(self.team)," games "+str(self.games)]
         lause = ""
         for kohta in lista:
             lause += kohta

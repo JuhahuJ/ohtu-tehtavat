@@ -20,7 +20,12 @@ def main():
 
             players.append(player)
 
+    def palautin(player):
+        return player.goals + player.assists
+
     print("Oliot:")
+
+    players = sorted(players, reverse=True, key=palautin)
 
     for player in players:
         print(player)
