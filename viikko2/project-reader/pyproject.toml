@@ -1,11 +1,19 @@
 [tool.poetry]
+<<<<<<< HEAD
 name = "verkkokauppa-haku"
+=======
+name = "project-reader"
+>>>>>>> 37d12b3f2b65a41ad77357a0ca1c28fd4e0f21e4
 version = "0.1.0"
 description = ""
 authors = ["Kalle Ilves <kalle.ilves@helsinki.fi>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+<<<<<<< HEAD
+=======
+toml = "^0.10.2"
+>>>>>>> 37d12b3f2b65a41ad77357a0ca1c28fd4e0f21e4
 
 [tool.poetry.dev-dependencies]
 
